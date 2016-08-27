@@ -1,5 +1,5 @@
 """
-Django settings for OverwatchApps project on Heroku. Fore more info, see:
+Django settings for PersonalFinance project on Heroku. Fore more info, see:
 https://github.com/heroku/heroku-django-template
 
 For more information on this file, see
@@ -62,12 +62,12 @@ MIDDLEWARE_CLASSES = (
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-ROOT_URLCONF = 'OverwatchApps.urls'
+ROOT_URLCONF = 'PersonalFinance.urls'
 
 TEMPLATES = (
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'OverwatchApps/templates/')],
+        'DIRS': [os.path.join(BASE_DIR, 'PersonalFinance/templates/')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -81,7 +81,7 @@ TEMPLATES = (
     },
 )
 
-WSGI_APPLICATION = 'OverwatchApps.wsgi.application'
+WSGI_APPLICATION = 'PersonalFinance.wsgi.application'
 
 
 # Database
