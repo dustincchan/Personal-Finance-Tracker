@@ -1,3 +1,3 @@
-# Heroku Django Starter Template
+# Personal Finance Tracker
 
-This was initially an Oauth2 app but got scrapped. It is a great starter template for django apps on heroku since that can be a huge headache.
+This application allows users to save and analyze their spending habits, and suggests daily/weekly/montly spending limits based on income.
