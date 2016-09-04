@@ -5,18 +5,25 @@
 
 .thumbnail {
   text-align: center;
-  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
-#due-date {
+.duedate {
   font-size: 18px;
+}
+
+.inverted-duedate {
+  font-size: 18px;
+  position: relative;
+  right: 150%;
 }
 
 div#bill-cards-container {
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#bill-cost-label {
+    margin-top: 0px;
 }
 
 /*timeline stuff*/
@@ -109,7 +116,7 @@ div#bill-cards-container {
             top: 16px;
             left: 50%;
             margin-left: -25px;
-            margin-top: 19px;
+            margin-top: 17px;
             z-index: 100;
         }
 
